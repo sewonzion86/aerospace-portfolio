@@ -1,7 +1,6 @@
 # Sewon Zion S — Propulsion & Robotics Research Portfolio
 
-B.E. Aeronautical Engineering, Nehru Institute of Engineering and Technology (Anna University).
-Aspiring rocket & space propulsion engineer.
+B.E. Aeronautical Engineering, Nehru Institute of Engineering and Technology (Anna University). Aspiring rocket & space propulsion engineer.
 
 This repo collects the independent research, reassessments, and reproductions done outside coursework. Each folder is self-contained with its own writeup.
 
@@ -21,7 +20,3 @@ Quad/hexacopter 6-DOF Newton-Euler simulation and control work in Simulink.
 
 ### [`stellar-contamination-biosignatures/`](./stellar-contamination-biosignatures)
 Research into stellar contamination as a source of false-positive biosignature detections in exoplanet atmospheres.
-
-## Status
-
-Working documents for now — CAD, code, and datasets for each project will be added as they're finalized. Next planned addition: turbopump sizing work (LOX/LH2 feed system) as a direct continuation of the propulsion-research folder.
