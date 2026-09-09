@@ -1,10 +1,10 @@
-# Propulsion Research — CD Nozzle Design Gap Reassessments
+# Propulsion Research — CD Nozzle Design Margin Reassessments
 
-Two independent reassessments of converging-diverging nozzle design margins, each benchmarked against the Space Shuttle Main Engine (RS-25) using its known mass flow rates (441 kg/s LOX, 73 kg/s LH2) and published design data. Each identifies a specific gap in standard design methodology and works through a corrected approach with full calculations.
+Two independent reassessments of converging-diverging nozzle design margins, each benchmarked against the Space Shuttle Main Engine (RS-25) using its known operating point (chamber pressure 20.64 MPa, O/F ratio 6.03) and mass flow data (441 kg/s LOX, 73 kg/s LH2).
 
 ## Folders
 
-- **`regenerative-cooling-chf-margin/`** — Critical heat flux (CHF) margin in regenerative cooling channel sizing. Includes the full supporting calculation set (`CLZIRP_Gap1_Full_Calculations`) alongside the final writeup.
-- **`cryogenic-contour-shrinkage/`** — Contour shrinkage and GD&T (geometric dimensioning & tolerancing) impact under cryogenic thermal contraction — a factor that standard room-temperature tolerance stacks don't account for.
+- **[`regenerative-cooling-chf-margin/`](./regenerative-cooling-chf-margin)** — reworks the throat heat-transfer margin against critical heat flux (CHF), using a coupled three-resistance thermal network and the Hess-Kunz supercritical-hydrogen correlation.
+- **[`cryogenic-contour-shrinkage/`](./cryogenic-contour-shrinkage)** — recalculates cryogenic pre-chill contour shrinkage and the resulting CAD oversizing allowance, corroborated with a thermal-structural FSI simulation.
 
-Planned next step: turbopump sizing (impeller type, shaft speed, NPSH/cavitation margin) using the same mass flow numbers, to close the loop from nozzle to full feed system.
+Both reports include full supporting hand calculations alongside the final writeup.
