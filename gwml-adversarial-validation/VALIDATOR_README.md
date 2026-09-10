@@ -27,7 +27,7 @@ The validator highlights a **critical mismatch**: when testing only against Gaus
 ## Controls
 
 | Control | Range | Purpose |
-|---------|-------|---------|
+|---------|-------|----------|
 | **Injected SNR** | 4–20 dB | Signal strength: 4 dB = weak, 20 dB = strong |
 | **Detection threshold ρ*** | 2–9 | Matched-filter score cutoff for detection |
 | **Trials per condition** | 20–250 | Replicates per test condition (more = smoother curves) |
